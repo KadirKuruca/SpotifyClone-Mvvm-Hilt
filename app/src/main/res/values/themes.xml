@@ -15,7 +15,7 @@
         <item name="cornerRadius">16dp</item>
         <item name="background">@color/colorAccent</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:backgroundTint" tools:targetApi="lollipop">@color/colorAccent</item>
     </style>
 
     <style name="PlayButtonStyle" parent="Widget.MaterialComponents.Button">
